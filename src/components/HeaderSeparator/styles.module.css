@@ -1,0 +1,30 @@
+.separatorContainer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.separatorLine {
+  background-color: #ffffff;
+  width: 350px;
+  height: 5px;
+  border-radius: 10px;
+}
+
+.separatorIcon {
+  margin: 0 10px;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 480px) {
+  .separatorLine {
+    width: 120px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .separatorLine {
+    width: 200px;
+  }
+}

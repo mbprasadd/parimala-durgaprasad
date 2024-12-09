@@ -1,0 +1,54 @@
+.container {
+  padding: 30px;
+  margin: 0px 20px;
+  width: 420px;
+  color: #fff;
+  background-color: #684d3d;
+  border: none;
+  border-radius: 10px;
+}
+
+.eventName {
+  font-family: Kaushan Script;
+  font-size: 24px;
+  text-align: center;
+}
+
+.detailContainer {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  /* background-color: coral; */
+}
+
+.detailText {
+  margin-left: 20px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.addressText {
+  font-family: Poppins;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .container {
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  .container {
+    padding: 20px;
+    margin: 20px 0;
+    width: 280px;
+  }
+
+  .detailText,
+  .addressText {
+    font-size: 12px;
+  }
+}

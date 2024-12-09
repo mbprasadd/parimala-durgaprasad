@@ -1,5 +1,7 @@
 import React from 'react'
-import { Favorite } from '@material-ui/icons'
+// import { Favorite } from '@material-ui/icons'
+import { Favorite } from '@mui/icons-material';
+
 
 import styles from './styles.module.css'
 

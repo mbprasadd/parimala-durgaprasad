@@ -1,5 +1,7 @@
 import React from 'react'
-import { CalendarToday, LocationOn, QueryBuilder } from '@material-ui/icons'
+// import { CalendarToday, LocationOn, QueryBuilder } from '@material-ui/icons'
+import { CalendarToday, LocationOn, QueryBuilder } from '@mui/icons-material';
+
 import styles from './styles.module.css'
 
 const EventDetailCard = ({

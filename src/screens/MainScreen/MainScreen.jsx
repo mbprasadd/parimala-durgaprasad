@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import  WeddingInvitation  from './../WeddingInvitation/WeddingInvitation.jsx';
 import FrontPageInvitation from './../FrontPageInvitation/FrontPageInvitation.jsx';
 
-import { PlaySong } from '../../components';
+// import { PlaySong } from '../../components';
 
 const MainScreen = () => {
   const [isInvitationOpen, setInvitationOpen] = useState(false);
@@ -12,7 +12,7 @@ const MainScreen = () => {
     <>
       {isInvitationOpen ? (
         <>
-          <PlaySong isInvitationOpen={isInvitationOpen} />
+          {/* <PlaySong isInvitationOpen={isInvitationOpen} /> */}
           <WeddingInvitation />
         </>
       ) : (
